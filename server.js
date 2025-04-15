@@ -11,7 +11,7 @@ app.use(express.json());
 app.use('/api/users', userRoutes);
 
 app.get('/', (req, res) => {
-  res.send('SweatSmartly API draait! ✅');
+  res.send('SweatSmartly API draait!');
 });
 
 const PORT = process.env.PORT || 3000;
