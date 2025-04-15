@@ -61,4 +61,4 @@ jobs:
           app-name: 'SweatSmartlyBackend'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CF16721290A548D4A683EF7AF76BA60A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_43291A678E964176B959F2DD8EF2B42C }}
